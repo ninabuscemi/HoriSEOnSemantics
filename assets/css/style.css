@@ -1,81 +1,87 @@
+/* Universal styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-/* Element selectors */
-body {
+  }
+  
+  /* Body styles */
+  body {
     background-color: #F4BF96;
-}
-
-.header {
+  }
+  
+  /* Header styles */
+  .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #BB9CC0;
     color: #ffffff;
-}
-
-.header h1 {
+  }
+  
+  .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header .seo {
+  }
+  
+  .header .seo {
     color: #F4BF96;
-}
-
-.header div {
+  }
+  
+  .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-.header div ul li {
+  }
+  
+  .header div ul li {
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
-}
-
-a {
+  }
+  
+  /* Anchor styles */
+  a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
+  }
+  
+  /* Paragraph styles */
+  p {
     font-size: 16px;
-}
-
-/* Class hero */
-.hero {
+  }
+  
+  /* Hero styles */
+  .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
+  }
+  
+  /* Float styles */
+  .float-left {
     float: left;
     margin: 0 25px 0 0;
-}
-
-.float-right {
+  }
+  
+  .float-right {
     float: right;
     margin: 0 0 0 25px;
-}
-
-.content {
+  }
+  
+  /* Content styles */
+  .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-/* Class benefits */
-.benefits {
+  }
+  
+  /* Benefits styles */
+  .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,34 +91,21 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #CE5A67;
     color: #ffffff;
-    
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-}
-
-.benefits h3 {
+  }
+  
+  .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefits img {
+  }
+  
+  .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Class content div */
-.content div {
+  }
+  
+  /* Content div styles */
+  .content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,24 +113,24 @@ p {
     background-color: #1F1717;
     color: #ffffff;
   }
-
-.content div img {
+  
+  .content div img {
     max-height: 200px;
-}
-
-.content h2{ 
-margin-bottom: 20px;
-font-size: 36px;
-}
-
-/* Class footer */
-.footer {
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  /* Footer styles */
+  .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h4 {
+  }
+  
+  .footer h4 {
     font-size: 20px;
-}
+  }
